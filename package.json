@@ -13,6 +13,7 @@
     "@mapbox/node-pre-gyp": "^1.0.10",
     "express": "^4.18.1",
     "hashmap": "^2.4.0",
+    "noble-mac": "https://github.com/Timeular/noble-mac.git",
     "ip": "^1.1.8",
     "quaternion": "^1.4.0",
     "socket.io": "^4.5.2"

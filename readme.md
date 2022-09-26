@@ -29,6 +29,8 @@ sudo tar zxvf rs-sensor-server.tgz
 cannot access https: github repos via package.json (defaults to ssh - THING TO FIX)
 Solution: manually cloned  sudo git clone https://github.com/Timeular/noble-mac.git in to node_modules
 
+FIX: add "noble-mac": "https://github.com/Timeular/noble-mac.git", to dependency list and sudo su <username> first
+
 if your node / npm allows you to you can include https://github.com/Timeular/noble-mac.git  in the dependency list in package.json
 
 start server with  sudo node xsensDotServer.js 
