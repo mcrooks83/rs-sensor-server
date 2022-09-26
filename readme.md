@@ -51,9 +51,17 @@ sudo docker build -t sensor-server .
 ## run container
 sudo docker run  --net=host --privileged -p 8080:8080 sensor-server
 
+or
+
+docker run  --net=host --privileged  sensor-server
+
+Web GUI Handler instantiated
+BLE Handler started.
+Webserver listening on port 8080, IP address: 192.168.1.151
+blePoweredOn: true
+
 ## access from laptop  (assuming rpi is on same network and connected)
 <ip>:<8080>
-
 
 
 ## I used this to create the app itself from scratch
