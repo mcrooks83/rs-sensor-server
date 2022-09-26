@@ -8,7 +8,7 @@ I used the "latest" available node packages for the dependencies.
 origin repo https://github.com/xsens/xsens_dot_server
 
 ## versions
-node 16 
+node v16.17.1
 "@abandonware/noble": "^1.9.2-15",
 "@mapbox/node-pre-gyp": "^1.0.10",
 "express": "^4.18.1",
