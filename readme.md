@@ -27,7 +27,9 @@ sudo tar zxvf rs-sensor-server.tgz
 ## ISSUES
 
 cannot access https: github repos via package.json (defaults to ssh - THING TO FIX)
-Solution: manually cloned  sudo git clone https://github.com/Timeular/noble-mac.git in to node_modules
+
+Solution: remove https://github.com/Timeular/noble-mac.git from package.json
+manually cloned  sudo git clone https://github.com/Timeular/noble-mac.git in to node_modules
 
 FIX: add "noble-mac": "https://github.com/Timeular/noble-mac.git", to dependency list and sudo su <username> first
 
